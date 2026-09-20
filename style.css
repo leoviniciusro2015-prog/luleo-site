@@ -135,3 +135,11 @@ header img {
     margin: 0 auto;
     border-radius: 12px;
 }
+
+.back-home {
+    display: inline-block;
+    margin: 20px;
+    color: #586b3a;
+    text-decoration: none;
+    font-weight: bold;
+}
