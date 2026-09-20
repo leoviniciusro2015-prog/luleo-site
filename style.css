@@ -139,11 +139,15 @@ header img {
 .back-nav {
     max-width: 1024px;
     margin: 0 auto;
-    padding: 15px 20px 0;
+    padding: 20px;
 }
 
 .back-home {
-    color: #586b3a;
+    display: inline-block;
+    background: #20201d;
+    color: #f5f3ed;
     text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 10px;
     font-weight: bold;
 }
