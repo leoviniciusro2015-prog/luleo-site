@@ -184,3 +184,8 @@ header img {
     font-size: 0.95em;
     color: #5a5648;
 }
+.product-card:active {
+    transform: scale(0.97);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
+    border-color: #2563eb;
+}
