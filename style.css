@@ -151,3 +151,27 @@ header img {
     border-radius: 10px;
     font-weight: bold;
 }
+.product-card {
+    display: block;
+    background: #ffffff;
+    border: 1px solid #ddd8cb;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #20201d;
+    max-width: 400px;
+}
+
+.product-card strong {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    color: #20201d;
+}
+
+.product-card span {
+    display: block;
+    font-size: 0.95em;
+    color: #5a5648;
+}
