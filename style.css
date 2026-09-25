@@ -240,3 +240,10 @@ header img {
     font-size: 22px;
     background: #d9a441;
 }
+.category-crossfit {
+    background-image: url("./crossfit.jpg");
+}
+
+.category-horta {
+    background-image: url("./hortavasos.jpg");
+}
