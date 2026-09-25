@@ -230,3 +230,13 @@ header img {
 .category-ferramentas {
     background-image: url("./ferramenta.bg.jpg.jpg");
 }
+.category-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    font-size: 22px;
+    background: #d9a441;
+}
