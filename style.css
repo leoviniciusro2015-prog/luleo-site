@@ -246,3 +246,13 @@ header img {
 .category-horta {
     background-image: url("./hortavasos.jpg");
 }
+.card-button {
+    display: inline-block;
+    background: #f5f3ed;
+    color: #20201d;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 14px;
+}
