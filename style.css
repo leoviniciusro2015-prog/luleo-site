@@ -256,3 +256,13 @@ header img {
     font-weight: 600;
     margin-top: 14px;
 }
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.product-grid .product-card {
+    max-width: none;
+    margin: 0;
+}
