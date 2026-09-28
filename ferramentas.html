@@ -44,6 +44,16 @@
     <p>LU LÉO</p>
     <span>Produtos que fazem parte da minha vida real.</span>
 </footer>
+<script>
+document.getElementById('search-box').addEventListener('input', function() {
+    const termo = this.value.toLowerCase();
+    const produtos = document.querySelectorAll('.product-card');
 
+    produtos.forEach(function(produto) {
+        const nome = produto.querySelector('strong').textContent.toLowerCase();
+        produto.style.display = nome.includes(termo) ? 'flex' : 'none';
+    });
+});
+</script>
 </body>
 </html>
